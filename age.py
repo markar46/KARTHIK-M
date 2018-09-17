@@ -1,15 +1,9 @@
-#program to check the value of numbers
-#input a from keyboaed
-a=int(input("enter value of a:"))
-#print b from keyboaed
-b=int(input("enter value of b:"))
-#print value of a
+#program to cheak age for vote 
+#input a from keyboard 
+a=int(input("a:"))
+#print a from keyboard 
 print("a:",a)
-#input value of b
-print("b:",b)
-if(a>b):
-	print(a,"is greater ")
-elif(b>a):
-	print(b,"is greater")
+if(a>=18):
+	print(a,"is eligible for vote ",a)
 else:
-	print("both are equal")
+	print(a,"is not eligible for vote ")
