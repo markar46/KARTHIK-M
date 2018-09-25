@@ -1,8 +1,8 @@
+#program to roll the dice
 while True:
-	i=input("enter'n' to quit")
-	if(i=='n'):
-		print("bye!")
-		exit()
-
-	else:
-		print("try again") 
+	i=input("enter 'r' to roll, or 'q' to quit:")
+	if(i='r'):
+	print(random,randint(1,6))
+ else:
+		print("try again")
+                exit() 
